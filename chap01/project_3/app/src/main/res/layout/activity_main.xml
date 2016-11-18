@@ -17,19 +17,19 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="40dip"
+            android:layout_height="50dip"
             android:id="@+id/TextView01"
             android:text="○○○○○"
-            android:textSize="40sp"
+            android:textSize="35sp"
             android:gravity="center"
             android:layout_weight="1"/>
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="40dip"
+            android:layout_height="50dip"
             android:id="@+id/TextView02"
             android:text="○○○○○"
-            android:textSize="40sp"
+            android:textSize="35sp"
             android:gravity="center"
             android:layout_weight="1"/>
 
@@ -42,19 +42,19 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="40dip"
+            android:layout_height="50dip"
             android:id="@+id/TextView03"
             android:text="●●●●●"
-            android:textSize="40sp"
+            android:textSize="35sp"
             android:gravity="center"
             android:layout_weight="1"/>
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="40dip"
+            android:layout_height="50dip"
             android:id="@+id/TextView04"
             android:text="●●●●●"
-            android:textSize="40sp"
+            android:textSize="35sp"
             android:gravity="center"
             android:layout_weight="1"/>
 
