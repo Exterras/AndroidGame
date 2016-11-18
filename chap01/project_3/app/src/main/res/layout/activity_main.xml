@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
+        <!-- <TextView
             android:layout_width="match_parent"
             android:layout_height="50dip"
             android:id="@+id/TextView01"
@@ -31,7 +31,22 @@
             android:text="○○○○○"
             android:textSize="35sp"
             android:gravity="center"
-            android:layout_weight="1"/>
+            android:layout_weight="1"/> -->
+
+        <ImageView
+            android:layout_width="150dip"
+            android:layout_height="100dip"
+            android:id="@+id/ImageView01"
+            android:src="@drawable/yutback"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="10dip"/>
+
+        <ImageView
+            android:layout_width="150dip"
+            android:layout_height="100dip"
+            android:id="@+id/ImageView02"
+            android:src="@drawable/yutfront"
+            android:layout_marginLeft="20dip" />
 
     </LinearLayout>
 
@@ -40,7 +55,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
+        <!-- <TextView
             android:layout_width="match_parent"
             android:layout_height="50dip"
             android:id="@+id/TextView03"
@@ -56,8 +71,22 @@
             android:text="●●●●●"
             android:textSize="35sp"
             android:gravity="center"
-            android:layout_weight="1"/>
+            android:layout_weight="1"/> -->
 
+        <ImageView
+            android:layout_width="150dip"
+            android:layout_height="100dip"
+            android:id="@+id/ImageView03"
+            android:src="@drawable/yutback"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="10dip"/>
+
+        <ImageView
+            android:layout_width="150dip"
+            android:layout_height="100dip"
+            android:id="@+id/ImageView04"
+            android:src="@drawable/yutfront"
+            android:layout_marginLeft="20dip" />
     </LinearLayout>
 
     <TextView
@@ -75,5 +104,72 @@
         android:text="확인"
         android:textSize="16sp"
         android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:id="@+id/TextView06"
+        android:text="카운트"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:id="@+id/TextView07"
+            android:text="도 : "
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:id="@+id/TextView08"
+            android:text="개 : "
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:id="@+id/TextView09"
+            android:text="걸 : "
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:id="@+id/TextView10"
+            android:text="윷 : "
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:id="@+id/TextView11"
+            android:text="모 : "
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
 
 </LinearLayout>
